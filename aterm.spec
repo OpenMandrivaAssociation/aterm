@@ -8,7 +8,6 @@ Version: 1.0.1
 Release:    %mkrel 5
 Url:		http://download.sourceforge.net/aterm/
 Source0:	ftp://ftp.afterstep.org/apps/aterm/%{name}-%{tar_version}.tar.bz2
-Patch0:     aterm-1.0.0-no_debug_output.patch 
 License:	GPL
 Group:		Terminals
 BuildRequires:	XFree86-devel xpm-devel
@@ -21,7 +20,6 @@ emulation and toolkit style configurability
 
 %prep
 %setup -q -n %{name}-%{tar_version}
-#patch0
 
 %build
 %configure --enable-fading --enable-background-image
