@@ -1,10 +1,10 @@
-%define tar_version 1.0.0
+%define tar_version 1.0.1
 
 %define Summary An rxvt-based terminal emulator for X11
 
 Summary:	%{Summary}
 Name:		aterm
-Version: 1.0
+Version: 1.0.1
 Release:    %mkrel 5
 Url:		http://download.sourceforge.net/aterm/
 Source0:	ftp://ftp.afterstep.org/apps/aterm/%{name}-%{tar_version}.tar.bz2
@@ -21,7 +21,7 @@ emulation and toolkit style configurability
 
 %prep
 %setup -q -n %{name}-%{tar_version}
-%patch0
+#patch0
 
 %build
 %configure --enable-fading --enable-background-image
@@ -60,5 +60,3 @@ rm -fr $RPM_BUILD_ROOT
 %{_bindir}/%{name}
 %{_mandir}/man1/*
 %{_datadir}/applications/*
-
-
