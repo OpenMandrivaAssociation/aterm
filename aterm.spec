@@ -10,7 +10,7 @@ Url:		http://download.sourceforge.net/aterm/
 Source0:	ftp://ftp.afterstep.org/apps/aterm/%{name}-%{tar_version}.tar.bz2
 License:	GPL
 Group:		Terminals
-BuildRequires:	XFree86-devel xpm-devel
+BuildRequires:	X11-devel xpm-devel
 BuildRoot:	%_tmppath/%name-%version-%release-root
 
 %description
