@@ -11,7 +11,6 @@ Source0:	ftp://ftp.afterstep.org/apps/aterm/%{name}-%{tar_version}.tar.bz2
 License:	GPL
 Group:		Terminals
 BuildRequires:	X11-devel xpm-devel
-BuildRoot:	%_tmppath/%name-%version-%release-root
 
 %description
 Aterm is a colour vt102 terminal emulator based on rxvt 2.4.8 intended as an 
