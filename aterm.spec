@@ -4,13 +4,15 @@
 
 Summary:	%{Summary}
 Name:		aterm
-Version: 1.0.1
-Release:    %mkrel 5
-Url:		http://download.sourceforge.net/aterm/
+Version:	1.0.1
+Release:	%mkrel 6
+URL:		http://aterm.sourceforge.net
 Source0:	ftp://ftp.afterstep.org/apps/aterm/%{name}-%{tar_version}.tar.bz2
-License:	GPL
+License:	GPLv2+
 Group:		Terminals
-BuildRequires:	X11-devel xpm-devel
+
+BuildRequires:	X11-devel
+BuildRequires:	xpm-devel
 BuildRoot:	%_tmppath/%name-%version-%release-root
 
 %description
@@ -22,7 +24,7 @@ emulation and toolkit style configurability
 %setup -q -n %{name}-%{tar_version}
 
 %build
-%configure --enable-fading --enable-background-image
+%configure2_5x --enable-fading --enable-background-image
 %make
 
 %install
