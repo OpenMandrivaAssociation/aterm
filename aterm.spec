@@ -11,8 +11,7 @@ Source0:	ftp://ftp.afterstep.org/apps/aterm/%{name}-%{tar_version}.tar.bz2
 License:	GPLv2+
 Group:		Terminals
 
-BuildRequires:	X11-devel
-BuildRequires:	xpm-devel
+BuildRequires:	libx11-devel
 BuildRoot:	%_tmppath/%name-%version-%release-root
 
 %description
