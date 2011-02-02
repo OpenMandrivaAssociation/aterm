@@ -12,6 +12,7 @@ License:	GPLv2+
 Group:		Terminals
 
 BuildRequires:	libx11-devel
+BuildRequires:	libxt-devel
 BuildRoot:	%_tmppath/%name-%version-%release-root
 
 %description
