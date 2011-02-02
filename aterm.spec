@@ -5,7 +5,7 @@
 Summary:	%{Summary}
 Name:		aterm
 Version:	1.0.1
-Release:	%mkrel 7
+Release:	%mkrel 8
 URL:		http://aterm.sourceforge.net
 Source0:	ftp://ftp.afterstep.org/apps/aterm/%{name}-%{tar_version}.tar.bz2
 License:	GPLv2+
