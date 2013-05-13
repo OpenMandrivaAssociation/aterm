@@ -5,7 +5,7 @@
 Summary:	%{Summary}
 Name:		aterm
 Version:	1.0.1
-Release:	%mkrel 8
+Release:	9
 URL:		http://aterm.sourceforge.net
 Source0:	ftp://ftp.afterstep.org/apps/aterm/%{name}-%{tar_version}.tar.bz2
 License:	GPLv2+
@@ -13,7 +13,6 @@ Group:		Terminals
 
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xt)
-BuildRoot:	%_tmppath/%name-%version-%release-root
 
 %description
 Aterm is a colour vt102 terminal emulator based on rxvt 2.4.8 intended as an 
