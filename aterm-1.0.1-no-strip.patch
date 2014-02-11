@@ -1,0 +1,12 @@
+diff -urN aterm-1.0.1/autoconf/Make.common.in aterm-1.0.1-patched/autoconf/Make.common.in
+--- aterm-1.0.1/autoconf/Make.common.in	2005-05-27 03:44:49.000000000 +1100
++++ aterm-1.0.1-patched/autoconf/Make.common.in	2014-02-12 01:37:34.610220640 +1100
+@@ -41,7 +41,7 @@
+ CP = @CP@
+ SED = @SED@
+ INSTALL = @INSTALL@
+-INSTALL_PROGRAM = @INSTALL@ -s -m 755
++INSTALL_PROGRAM = @INSTALL@ -m 755
+ INSTALL_DATA = @INSTALL@ -m 644
+ 
+ # Flags & libs
