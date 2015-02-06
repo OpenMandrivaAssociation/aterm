@@ -1,7 +1,7 @@
 Summary:	An rxvt-based terminal emulator for X11
 Name:		aterm
 Version:	1.0.1
-Release:	10
+Release:	11
 License:	GPLv2+
 Group:		Terminals
 Url:		http://aterm.sourceforge.net
