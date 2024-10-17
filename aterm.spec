@@ -4,7 +4,7 @@ Version:	1.0.1
 Release:	11
 License:	GPLv2+
 Group:		Terminals
-Url:		http://aterm.sourceforge.net
+Url:		https://aterm.sourceforge.net
 Source0:	ftp://ftp.afterstep.org/apps/aterm/%{name}-%{version}.tar.bz2
 Patch0:		aterm-1.0.1-no-strip.patch
 BuildRequires:	pkgconfig(x11)
